@@ -1,6 +1,6 @@
 ---
 - name: Install Docker
-  hosts: test_server
+  hosts: localhost
   become: yes
   tasks:
     - name: Update apt package cache (for Ubuntu)
